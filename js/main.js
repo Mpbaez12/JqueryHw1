@@ -22,3 +22,9 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.jumbotron').on('mouseleave', unhighlight);
 });
+$(document).ready(function() {
+  $('.hide-jumbotron').on('click', hide);
+});
+$(document).ready(function() {
+  $('.view-jumbotron').on('click', show);
+});
